@@ -1,6 +1,6 @@
-#Deep learning projet
+# Deep learning projet
 
-##Installation et dependances
+## Installation et dependances
 
 
 Installer Anaconda-navigator
@@ -28,7 +28,7 @@ Ex: pip install --ignore-installed --upgrade https://storage.googleapis.com/tens
 
 * pip install h5py
 
-##Presentation et utilisation
+## Presentation et utilisation
 
 Plusieurs types d’utilisations, pour les consulter
 
