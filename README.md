@@ -47,11 +47,6 @@ A travers l'interface graphique on peut :
 On veut que le réseau s’entraîne sur des images personnelles, nous mettons donc quelques
 images de chaque dans le répertoire traitement-> im_base -> nom_de_dossier
 
-
-En lançant ```python main.py --database``` cela crée une base d'apprentissage et de test
-pour que l'algorithme de Deep Learning puisse apprendre sur un tas d'image généré
-par les images contenus dans le répertoire im_base.
-
 Pour lancer Tensorboard :
 
 * ```tensorboard --logdir=tensorboard/```
