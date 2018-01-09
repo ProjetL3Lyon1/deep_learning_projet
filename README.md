@@ -34,6 +34,7 @@ Plusieurs types d’utilisations, pour les consulter
 
 * *python main.py --help*
 
+Lancer le programme sans argument permet de lancer l'interface graphique Tkinter.
 
 On veut que le réseau s’entraîne sur des images personnelles, nous mettons donc quelques
 images de chaque dans le répertoire traitement-> im_base -> nom_de_dossier
