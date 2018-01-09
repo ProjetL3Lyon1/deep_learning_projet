@@ -47,6 +47,9 @@ A travers l'interface graphique on peut :
 On veut que le réseau s’entraîne sur des images personnelles, nous mettons donc quelques
 images de chaque dans le répertoire traitement-> im_base -> nom_de_dossier
 
+Pour supprimer les images générées par la fonction de traitement,
+il faut supprimer à la main les dossier im_learn et im_test dans le dossier traitement.
+
 Pour lancer Tensorboard :
 
 * ```tensorboard --logdir=tensorboard/```
