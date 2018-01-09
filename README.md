@@ -2,7 +2,6 @@
 
 ## Installation et dependances
 
-
 Installer Anaconda-navigator
 
 * https://conda.io/docs/user-guide/install/index.html#installing-conda-on-a-system-that-has-other-python-installations-or-packages
@@ -28,23 +27,34 @@ Ex: pip install --ignore-installed --upgrade https://storage.googleapis.com/tens
 
 * ```pip install h5py```
 
-## Presentation et utilisation
+* ```pip install Tensorboard```
 
-Plusieurs types d’utilisations, pour les consulter
+## Présentation et utilisation
+
+Pour voir les options disponibles:
 
 * ```python main.py --help```
 
-Lancer le programme sans argument permet de lancer l'interface graphique Tkinter.
+Pour lancer l'interface graphique Tkinter il suffit de taper sur la console.
+
+* ```python main.py```
+
+A travers l'interface graphique on peut :
+* Générer une base de données d'images 
+* Lancer l'entrainement sur la base d'images
+* Tester une image pour prédire 
 
 On veut que le réseau s’entraîne sur des images personnelles, nous mettons donc quelques
 images de chaque dans le répertoire traitement-> im_base -> nom_de_dossier
 
+
 En lançant ```python main.py --database``` cela crée une base d'apprentissage et de test
 pour que l'algorithme de Deep Learning puisse apprendre sur un tas d'image généré
-par les images contenu dans im_base.
+par les images contenus dans le répertoire im_base.
 
-En lançant ```python main.py --training``` l'algorithme va s’entraîner sur la nouvelle
-base.
+Pour lancer Tensorboard :
 
-En lançant ```python main.py --image image```  l'algorithme va analyser cette image
-et tenter de trouver des correspondances avec ce qu'il a apprit en amont
+* ```tensorboard --logdir=tensorboard/```
+
+Puis copier l'URL pour ensuite accéder à travers un navigateur l'interface graphique
+de Tensorboard.
